@@ -32,7 +32,7 @@ python pipeline.py --id bldg_id --factor load_factor
 Note that you have to create the dataset with the corresponding load_factor in advance.
 
 ## Data
- The [solar home electricity dataset](https://www.ausgrid.com.au/Industry/Our-Research/Data-to-share/Solar-home-electricity-data) was used for the paper. This consists of the years 2011 - 2013, which are divided into individual files. To run the forecasting pipeline on it, the data must be downloaded and prepared so that all 3 years are concatenated and within the columns the prosumption data of a single house are located. Additionally the factors have to be applied.
+ The [solar home electricity dataset](https://www.ausgrid.com.au/Industry/Our-Research/Data-to-share/Solar-home-electricity-data) was used for the paper. This consists of the years 2010 - 2013, which are divided into individual files. To run the forecasting pipeline on it, the data must be downloaded and prepared so that all 3 years are concatenated and within the columns the prosumption data of a single house are located. Additionally the factors have to be applied.
 Further the data has to be placed at "data/solar_home_all_data_2010-2013{args.factor}.csv" , where args.factor is for example "_ldiv2".
 ## License
 
